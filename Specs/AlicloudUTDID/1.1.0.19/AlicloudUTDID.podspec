@@ -6,5 +6,5 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.aliyun.com"
   s.author       = { "junmo" => "lingkun.lk@alibaba-inc.com" }
   s.source       = { :http => "https://ios-repo.oss-cn-shanghai.aliyuncs.com/utdid/1.1.0.19/utdid.zip" }
-  s.vendored_frameworks = 'utdid/UTDID.framework'
+#  s.vendored_frameworks = 'utdid/UTDID.framework'
 end
