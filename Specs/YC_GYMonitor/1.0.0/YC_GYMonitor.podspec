@@ -1,5 +1,5 @@
  Pod::Spec.new do |s|
-   s.name         = "GYMonitor"
+   s.name         = "YC_GYMonitor"
    s.version      = "1.0.0"
    s.summary      = "A collection of code for profiling iOS app, such as monitoring FPS."
    s.homepage     = "https://github.com/featuretower/GYMonitor"
@@ -8,7 +8,7 @@
    s.source       = { :git => "https://github.com/featuretower/GYMonitor.git", :tag => s.version }
    s.platform     = :ios, '7.0'
 
-   s.source_files = 'GYMonitor', 'GYMonitor/**/*.{h,m}'
+   # s.source_files = 'YC_GYMonitor', 'GYMonitor/**/*.{h,m}'
    # s.exclude_files = 'GYMonitor/CrashReporter.framework'
 
    s.dependency 'PLCrashReporter'
