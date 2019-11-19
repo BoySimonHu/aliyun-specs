@@ -11,7 +11,7 @@
    s.source_files = 'GYMonitor/**/*.{h,m}'
    # s.exclude_files = 'GYMonitor/CrashReporter.framework'
 
-#    s.dependency 'PLCrashReporter'
+   s.dependency 'PLCrashReporter'
 
    s.requires_arc = true
  end
